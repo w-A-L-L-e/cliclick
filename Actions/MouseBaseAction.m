@@ -107,6 +107,7 @@
 -(NSString *)actionDescriptionString:(NSString *)locationDescription {
     [NSException raise:@"InvalidCommandException"
                 format:@"To be implemented by subclasses"];
+    return @"";
 }
 
 -(void)performActionAtPoint:(CGPoint)p {
