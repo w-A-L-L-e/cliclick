@@ -44,3 +44,6 @@ gcc -o cliclick Actions/ClickAction.o Actions/DoubleclickAction.o Actions/KeyBas
 cp cliclick /usr/local/bin/
 Walters-MacBook-Pro:cliclick wschrep$ 
 ```
+
+TODO: add support for foreign keyboards. I use qwerty and that works fine for me ;). 
+
